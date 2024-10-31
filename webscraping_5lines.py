@@ -2,6 +2,7 @@ import csv
 from requests_html import HTMLSession
 from bs4 import BeautifulSoup
 
+
 def export_data(data):
     with open("web_scraping_toc.csv", "w", newline="") as file:
         writer = csv.DictWriter(file, fieldnames=['name', 'link'])
