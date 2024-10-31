@@ -1,14 +1,22 @@
 Pre-reqs:
+<br/>
 python installed for windows
-
+<br/>
 pip install beautifulsoup4
+<br/>
 python -m pip install requests
+<br/>
 pip install requests-html
+<br/>
 pip install pyppeteer
+<br/>
 pip install lxml-html-clean
+<br/>
 
 
+<br/>
 Bug fix for pyppeteer:
+<br/>
 
 I also couldn't find version 1181205, but I tried a slightly higher version 1181217 and it worked.
 
